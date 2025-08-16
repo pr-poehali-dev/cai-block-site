@@ -11,6 +11,7 @@ const Index = () => {
     { name: "Франция", date: "Апрель 2024", reason: "Безопасность несовершеннолетних" },
     { name: "Германия", date: "Май 2024", reason: "Регулирование ИИ-контента" },
     { name: "Бразилия", date: "Июнь 2024", reason: "Контроль над ИИ-платформами" },
+    { name: "Грузия", date: "Август 2024", reason: "Обеспечение цифровой безопасности" },
   ];
 
   const timeline = [
@@ -57,7 +58,7 @@ const Index = () => {
               <div className="flex gap-4">
                 <Badge variant="destructive" className="text-sm">
                   <Icon name="AlertTriangle" size={14} />
-                  <span className="ml-1">4 страны заблокировали</span>
+                  <span className="ml-1">5 стран заблокировали</span>
                 </Badge>
                 <Badge variant="outline" className="text-sm">
                   <Icon name="Users" size={14} />
